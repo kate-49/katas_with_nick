@@ -5,7 +5,9 @@ import (
 )
 
 func fizzBuzz(input int) string {
-	if input == 3 {
+	if input == 15 {
+		return "FizzBuzz"
+	} else if input == 3 {
 		return "Fizz"
 	} else if input == 5 {
 		return "Buzz"
