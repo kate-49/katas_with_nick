@@ -1,3 +1,5 @@
 package main
 
-import "fmt"
+func fizzBuzz(input int) int {
+	return input
+}
