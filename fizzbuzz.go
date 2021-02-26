@@ -5,10 +5,12 @@ import (
 )
 
 func fizzBuzz(input int) string {
-	if input == 1 {
-		return strconv.Itoa(input)
-	} else {
+	if input == 3 {
 		return "Fizz"
+	} else if input == 5 {
+		return "Buzz"
+	} else {
+		return strconv.Itoa(input)
 	}
 }
 
